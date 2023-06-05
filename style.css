@@ -21,14 +21,12 @@ p {
     font-size: 14px;
 }
 
-h1 {
-    position: absolute; 
-    z-index: 10; 
-    color: white; 
-    top: 288px; 
-    left: 412px; 
-    font-family: sans-serif;
-    margin: 0;
+img {
+    position: absolute;
+    z-index: 10;
+    top: 200px;
+    left: 360px;
+    width: 30%;
 }
 
 button {
