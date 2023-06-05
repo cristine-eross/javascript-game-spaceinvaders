@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #BAA0DE;
+}
+
+div {
+    position: relative;
+}
+
+p {
+    position: absolute; 
+    z-index: 10; 
+    color: white;
+    left: 10px; 
+    top: 10px; 
+    margin: 0; 
+    font-family: sans-serif; 
+    font-size: 14px;
+}
+
+h1 {
+    position: absolute; 
+    z-index: 10; 
+    color: white; 
+    top: 288px; 
+    left: 412px; 
+    font-family: sans-serif;
+    margin: 0;
+}
+
+button {
+    display: grid; 
+    margin: auto; 
+    padding: 5px; 
+    margin-top: 10px; 
+    font-family: sans-serif; 
+    font-size: 14px; 
+    background-color: black; 
+    color: white; 
+    letter-spacing: 1;
+}
