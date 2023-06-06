@@ -31,14 +31,11 @@ img {
 }
 
 .buttons {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
-button {
-    display: grid; 
-    margin: auto; 
+button { 
     padding: 5px; 
     margin-top: 10px; 
     font-family: sans-serif; 
