@@ -34,7 +34,7 @@ img {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
-.buttons button {
+button {
     padding: 5px; 
     margin-top: 10px; 
     font-family: sans-serif; 
